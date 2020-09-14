@@ -25,6 +25,10 @@ public class Author {
         this.lastName = lastName;
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public String getFirstName() {
         return firstName;
     }
